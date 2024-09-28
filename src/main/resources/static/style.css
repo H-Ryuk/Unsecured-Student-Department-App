@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light grey background */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centers the form vertically */
+}
+
+.form-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 50%;
+    max-width: 400px; /* Max width of the form */
+    border-left: 5px solid #007bff; /* Blue left border */
+}
+
+h2 {
+    text-align: center;
+    color: #007bff; /* Blue color for the header */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between fields */
+}
+
+.form-group label {
+    display: block; /* Label on its own line */
+    margin-bottom: 8px; /* Space below the label */
+    font-weight: bold; /* Bold labels */
+    color: #495057; /* Dark grey for labels */
+}
+
+.form-group input[type="text"] {
+    width: 100%; /* Full width input */
+    padding: 12px; /* Space inside the input */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ced4da; /* Light border */
+    font-size: 16px; /* Font size for input */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+
+
+.form-select{
+    width: 100%; /* Full width input */
+    padding: 12px; /* Space inside the input */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ced4da; /* Light border */
+    font-size: 16px; /* Font size for input */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+
+
+
+.form-group input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.btn {
+    width: 100%; /* Full-width button */
+    padding: 12px;
+    background-color: #007bff; /* Blue button background */
+    color: #ffffff; /* White button text */
+    font-size: 16px; /* Font size for button */
+    font-weight: bold; /* Bold button text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #007bff; /* Blue background */
+    padding: 10px 20px; /* Padding for the navbar */
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Aligns it to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+.nav-container {
+    display: flex; /* Flexbox layout for the links */
+    align-items: center; /* Center links vertically */
+}
+
+.nav-link {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.nav-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form Container Adjustment */
+.form-container {
+    margin-top: 70px; /* Add margin to push the form down below the navbar */
+}
